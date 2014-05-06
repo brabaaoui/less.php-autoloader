@@ -10,15 +10,17 @@ Basic Use
 ---
 
 
-Step 1. Put less.php folder and LessHandler.php in your libraries folder:
-Step 2. Put less_parser.php in your config folder:
-Step 3. Set directories for input and output in less_parser.php
-Step 4. Go to autoloader.php and add:
+Step 1. Put less.php folder and LessHandler.php in your libraries folder  
+Step 2. Put less_parser.php in your config folder  
+Step 3. Set directories for input and output in less_parser.php  
+Step 4. Go to autoloader.php and add :  
 
 ```
+
 $autoload['libraries'] = array('LessHandler');
 
 ```
+
 Step 5. Enjoy!
 
 
